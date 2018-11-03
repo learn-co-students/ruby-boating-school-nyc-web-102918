@@ -30,6 +30,6 @@ attr_accessor :name
          end
       end
     }
-    passed/total.to_f
+    passed*100/total.to_f
   end
 end #End of class
