@@ -17,6 +17,11 @@ class Student
     end
   end
 
+  def tests
+    BoatingTest.select.all do |student+name|
+      student_name.student == self
+  end
+
   def add_boating_test(name, status, instructor)
     BoatingTest.new(self, name, status, instructor)
   end
