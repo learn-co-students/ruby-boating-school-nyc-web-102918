@@ -20,6 +20,6 @@ end
 
 def self.find_student(name)
   test_instance=BoatingTest.all.find{|boating_test|boating_test.student.first_name==name}
-  test_instace.student
+  test_instance.student
 end
 end

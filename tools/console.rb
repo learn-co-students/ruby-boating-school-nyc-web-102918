@@ -19,7 +19,6 @@ puts spongebob.add_boating_test("Don't Crash 103", "failed", puff)
 
 puts "\n Test 2: Instructor.fail_student('spongebob','Don't Crash 101') fails the student"
 puts Instructor.fail_student("Spongebob","Don't Crash 101").inspect
-
 puts "\n Test 3: Instructor.student_grade_percentage('Spongebob') returns 0"
 puts Instructor.student_grade_percentage('Spongebob').inspect
 # Insert code here to run before hitting the binding.pry
